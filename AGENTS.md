@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the frontend-only experience in a self-contained public HTML document mounted by the index route; this preserves the requested portable vanilla Canvas deliverable without replacing the TanStack bootstrap.
+- Define the experience's visual tokens in its inline CSS and mirror the shell palette in src/styles.css so the standalone document has no local stylesheet dependency.
