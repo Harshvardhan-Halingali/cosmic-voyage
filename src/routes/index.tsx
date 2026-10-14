@@ -15,5 +15,5 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  return <iframe className="orbital-experience" src="/experience.html" title="ORBITAL — Interactive deep-space expedition" allow="autoplay" />;
+  return <iframe className="orbital-experience" src="/experience.html" title="ORBITAL — Interactive deep-space expedition" allow="autoplay; fullscreen" allowFullScreen />;
 }
